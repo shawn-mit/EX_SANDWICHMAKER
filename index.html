@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Joisey Spike's </title>
+</head>
+<header> <h1>  Joisey Spike's </h1> </header>
+<body>
+    <form>
+        <fieldset>
+            <div id="bread">
+                <h2> Bread </h2>
+                <select  id="breadchooser" size="3">
+                    <option>wheat</option>
+                    <option>italian</option>
+                    <option>marble-rye</option>
+                </select>
+            </div>
+        </fieldset>
+        <h2> For extra hangriness please hold "Ctrl + A" during selection :
+        <fieldset>
+            <div id="meat">
+                <h2> Meat </h2>
+                <select multiple id="meatchooser" size="4">
+                    <option>turkey</option>
+                    <option>bacon</option>
+                    <option>salami</option>
+                    <option>veganfy</option>
+
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div id="cheese">
+                <h2> Cheese </h2>
+                <select multiple id="cheesechooser" size="3">
+                    <option>cheddar</option>
+                    <option>gouda</option>
+                    <option>provologne</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div id="condiments">
+                <h2> Condiments </h2>
+                <select multiple id="condimentschooser" size="3">
+                    <option>siracha</option>
+                    <option>mustard</option>
+                    <option>ranch</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div id="veggies">
+                <h2> Veggies </h2>
+                <select multiple id="veggieschooser" size="3">
+                    <option>olives</option>
+                    <option>spinach</option>
+                    <option>tomatoes</option>
+                </select>
+            </div>
+        </fieldset>
+        <br> 
+            <button id= "hangrybtn" type = "button"> I AM HANGRY! </button>
+        <br></br>
+        <fieldset>
+        
+            <h4> <b> Sandwich Total </b> </h4>
+                <div id="output"> </div>
+
+
+        </fieldset>
+    </form>
+    <script src="javascripts/SandwichMaker.js"></script>
+    <script src="javascripts/meat.js"></script>
+    <script src="javascripts/condiments.js"></script>
+    <script src="javascripts/cheese.js"></script>
+    <script src="javascripts/bread.js"></script>
+    <script src="javascripts/veggies.js"></script>   
+    <script src="javascripts/DOMHandler.js"></script>
+</body>
+
+</html>
